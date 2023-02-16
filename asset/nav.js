@@ -1,5 +1,5 @@
 let nav = {
-  name: "西柚导航",
+  name: "Joyce's Website",
   description: "",
   list: [],
   ele: document.getElementsByClassName("navlist"),
