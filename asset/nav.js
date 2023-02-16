@@ -42,19 +42,14 @@ nav.list[0] = [{
 
 nav.list[1] = [{
   name: "第三方导航", icon: "fa-solid fa-signs-post", item: [
+    { text: "茶杯狐", desc: "追剧 观影", link: "https://cupfox.app/" },
     { text: "半岛导航", desc: "西邮 学习", link: "https://www.bandao.ltd/guidance/" },
     { text: "掘金酱", desc: "开发者", link: "https://e.juejin.cn/" },
     { text: "下次一定", desc: "影视 工具 装机", link: "https://www.iiice.cn/" },
     { text: "蜗牛导航", desc: "开发 设计", link: "https://s.eallion.com/" },
     { text: "禾坡导航", desc: "运营 美工", link: "http://www.hepou.com/" },
   ]
-}, {
-  name: "校友推荐", icon: "fa-solid fa-inbox",
-  desc: `<a onclick="dialog.msg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
-  item: [
-    { text: "旅游地图", desc: "云游西安", link: "http://ditu.ps123.net/china/923.html" },
-  ]
-}, {
+},{
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
     { text: "稿定PS", link: "https://ps.gaoding.com/#/" },
     { text: "菜鸟工具", link: "https://c.runoob.com/" },
@@ -66,13 +61,6 @@ nav.list[1] = [{
     { text: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析", link: "https://store.rg-adguard.net/" },
     { text: "Digit77", link: "https://www.digit77.com/" },
-  ]
-}, {
-  name: "友链", icon: "fa-solid fa-link",
-  desc: `<a onclick="dialog.msg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
-  item: [
-    { text: "纸鹿小站", link: "https://zhilu.cyou/" },
-    { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
   ]
 },]
 
